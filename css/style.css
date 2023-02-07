@@ -288,6 +288,11 @@ nav ul {
 }
 .mac {
   background-image: url("../img/mac.svg");
+  width: 85%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: top;
 }
 .download_main_col .container_bg_esterno {
   width: 100%;
