@@ -32,6 +32,9 @@ a {
   text-decoration: none;
   color: white;
 }
+a:hover {
+  text-decoration: underline;
+}
 p {
   line-height: 1.5rem;
 }
@@ -40,6 +43,15 @@ p {
   display: table;
   clear: both;
 }
+.riquadro:hover {
+  box-shadow: 3px 3px 10px 8px rgba(0, 0, 20, 0.1);
+  opacity: 0.9;
+  transition: all 300ms;
+}
+.hover_color a:hover {
+  color: var(--sfondo_blu_color);
+}
+
 /* /general */
 
 /* header */
@@ -201,7 +213,7 @@ footer section:first-of-type img {
   width: 1.2rem;
 }
 
-footer section li:first-of-type a,
+footer section:first-child li,
 h4 {
   color: var(--sfondo_blu_color);
 }
@@ -214,7 +226,7 @@ footer hr {
   border: none;
   margin: 1rem 0;
 }
-footer section:last-of-type img {
+footer section:last-of-type .logo {
   display: block;
   float: left;
 }
@@ -229,5 +241,8 @@ footer .paese {
 .paese .icone {
   display: flex;
   gap: 1rem;
+}
+footer .lingua:hover {
+  cursor: pointer;
 }
 /* /footer */
