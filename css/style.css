@@ -134,12 +134,17 @@ main section {
   margin: 0 auto;
   display: flex;
 }
-/* .wave_grey,
+.wave_grey {
+  background-image: url("../img/wave_grey.svg");
+}
 .wave_white {
-  background-image: url("../img/wave.svg");
+  background-image: url("../img/wave_white.svg");
+}
+.wave_grey,
+.wave_white {
   background-repeat: no-repeat;
   background-position-y: bottom;
-} */
+}
 main section > div {
   align-self: center;
 }
